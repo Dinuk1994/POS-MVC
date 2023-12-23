@@ -1,7 +1,6 @@
-package Model.impl;
+package dao.impl;
 
-import Model.CustomerModel;
-import com.jfoenix.controls.JFXButton;
+import dao.CustomerModel;
 import db.DBConnection;
 import dto.CustomerDto;
 

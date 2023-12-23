@@ -1,6 +1,6 @@
-package Model.impl;
+package dao.impl;
 
-import Model.ItemModel;
+import dao.ItemModel;
 import db.DBConnection;
 import dto.ItemDto;
 

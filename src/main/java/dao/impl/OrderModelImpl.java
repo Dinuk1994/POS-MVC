@@ -1,7 +1,7 @@
-package Model.impl;
+package dao.impl;
 
-import Model.OrderDetailsModel;
-import Model.OrderModel;
+import dao.OrderDetailsModel;
+import dao.OrderModel;
 import db.DBConnection;
 import dto.OrderDto;
 

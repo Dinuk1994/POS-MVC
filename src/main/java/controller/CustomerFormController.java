@@ -1,10 +1,9 @@
 package controller;
 
-import Model.CustomerModel;
-import Model.impl.CustomerModelImpl;
+import dao.CustomerModel;
+import dao.impl.CustomerModelImpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import db.DBConnection;
 import dto.CustomerDto;
 import dto.tm.CustomerTm;
 import javafx.animation.Animation;

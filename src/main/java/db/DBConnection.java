@@ -16,7 +16,7 @@ public class DBConnection {
     }
 
     public static DBConnection getInstance() throws ClassNotFoundException, SQLException {
-        return dbConnection!=null? dbConnection:(dbConnection=new DBConnection());
+        return dbConnection!=null? dbConnection:(dbConnection = new DBConnection());
     }
 
     public Connection getConnection(){
